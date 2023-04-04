@@ -6,7 +6,7 @@
 /*   By: skattankakku <skattankakku@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/01 12:56:07 by rvuorenl          #+#    #+#             */
-/*   Updated: 2023/04/04 19:44:23 by skattankakk      ###   ########.fr       */
+/*   Updated: 2023/04/04 21:16:37 by skattankakk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,6 +26,7 @@ typedef struct s_list
 	struct s_list	*next;
 }t_list;
 
+void	ft_bubblesort_int(int *list, int size);
 void	ft_free_strarray(char ***array);
 void	ft_exit_error(char *msg, int ret);
 char	*ft_strjoin_three(char *s1, char *s2, char *s3);
