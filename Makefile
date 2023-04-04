@@ -15,7 +15,7 @@ LIBFT_FILES= \
 		ft_strncat.c ft_strncmp.c ft_strncpy.c ft_strnequ.c ft_strnew.c \
 		ft_strnstr.c ft_strrchr.c ft_strsplit.c ft_strstr.c ft_strsub.c \
 		ft_strtrim.c ft_tolower.c ft_toupper.c get_next_line.c \
-		ft_bubblesort_int.c
+		ft_bubblesort_int.c ft_bubblesort_str.c
 
 PRINTF_FILES=address.c assign.c bonus.c char.c flags.c flags2.c float.c \
 		ft_printf.c helpers.c hex_flags.c hex.c int_flags.c int.c \
