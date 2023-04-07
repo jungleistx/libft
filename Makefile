@@ -15,14 +15,14 @@ LIBFT_FILES= \
 		ft_strncat.c ft_strncmp.c ft_strncpy.c ft_strnequ.c ft_strnew.c \
 		ft_strnstr.c ft_strrchr.c ft_strsplit.c ft_strstr.c ft_strsub.c \
 		ft_strtrim.c ft_tolower.c ft_toupper.c get_next_line.c \
-		ft_bubblesort_int.c ft_bubblesort_str.c
+		ft_bubblesort_int.c ft_bubblesort_str.c ft_power.c
 
 PRINTF_FILES=address.c assign.c bonus.c char.c flags.c flags2.c float.c \
 		ft_printf.c helpers.c hex_flags.c hex.c int_flags.c int.c \
 		octal_flags.c octal.c percent.c string.c unsigned.c
 
 FULL_PRINTF_FILES=$(addprefix printf/srcs/, $(PRINTF_FILES))
-FULL_LIBFT_FILES=$(addprefix libft_srcs/, $(LIBFT_FILES))
+FULL_LIBFT_FILES=$(addprefix srcs/, $(LIBFT_FILES))
 LIBFT_OBJECTS=$(FULL_LIBFT_FILES:%.c=%.o)
 PRINTF_OBJECTS=$(FULL_PRINTF_FILES:%.c=%.o)
 LIBNAME=libft.a
