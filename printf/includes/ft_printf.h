@@ -3,17 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rvuorenl <rvuorenl@student.42.fr>          +#+  +:+       +#+        */
+/*   By: skattankakku <skattankakku@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/10 15:18:13 by rvuorenl          #+#    #+#             */
-/*   Updated: 2022/09/27 20:40:27 by rvuorenl         ###   ########.fr       */
+/*   Updated: 2023/04/10 23:33:57 by skattankakk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FT_PRINTF_H
 # define FT_PRINTF_H
 # include <stdarg.h>
-# include "../../libft_srcs/libft.h"
+# include "../../includes/libft.h"
 
 # define SPECS "%dicoxXuUspnfFbBD"
 # define RED "\033[0;31m"
