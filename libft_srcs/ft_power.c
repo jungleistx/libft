@@ -6,11 +6,11 @@
 /*   By: skattankakku <skattankakku@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/10 23:19:16 by skattankakk       #+#    #+#             */
-/*   Updated: 2023/04/10 23:19:21 by skattankakk      ###   ########.fr       */
+/*   Updated: 2023/04/10 23:29:14 by skattankakk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 
 int	ft_power(int num, int power)
 {

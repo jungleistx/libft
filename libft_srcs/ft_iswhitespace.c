@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_iswhitespace.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rvuorenl <rvuorenl@student.42.fr>          +#+  +:+       +#+        */
+/*   By: skattankakku <skattankakku@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/03 16:05:05 by rvuorenl          #+#    #+#             */
-/*   Updated: 2022/10/03 16:06:24 by rvuorenl         ###   ########.fr       */
+/*   Updated: 2023/04/10 23:30:22 by skattankakk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 
 int	ft_iswhitespace(char c)
 {

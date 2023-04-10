@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_striter.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rvuorenl <rvuorenl@student.hive.fi>        +#+  +:+       +#+        */
+/*   By: skattankakku <skattankakku@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/11 15:28:17 by rvuorenl          #+#    #+#             */
-/*   Updated: 2021/11/19 18:50:45 by rvuorenl         ###   ########.fr       */
+/*   Updated: 2023/04/10 23:32:18 by skattankakk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 
 void	ft_striter(char *s, void (*f)(char *))
 {

@@ -6,11 +6,11 @@
 /*   By: skattankakku <skattankakku@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/04 21:09:08 by skattankakk       #+#    #+#             */
-/*   Updated: 2023/04/04 21:09:28 by skattankakk      ###   ########.fr       */
+/*   Updated: 2023/04/10 23:29:53 by skattankakk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 
 void	ft_bubblesort_int(int *list, int size)
 {

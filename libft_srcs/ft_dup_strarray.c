@@ -6,11 +6,11 @@
 /*   By: skattankakku <skattankakku@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/04 19:18:05 by skattankakk       #+#    #+#             */
-/*   Updated: 2023/04/04 19:36:54 by skattankakk      ###   ########.fr       */
+/*   Updated: 2023/04/10 23:30:08 by skattankakk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 
 char	**ft_dup_strarray(char **original)
 {

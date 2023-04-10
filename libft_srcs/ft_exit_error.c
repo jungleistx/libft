@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_exit_error.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rvuorenl <rvuorenl@student.42.fr>          +#+  +:+       +#+        */
+/*   By: skattankakku <skattankakku@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/24 21:06:05 by rvuorenl          #+#    #+#             */
-/*   Updated: 2022/10/25 00:11:38 by rvuorenl         ###   ########.fr       */
+/*   Updated: 2023/04/10 23:30:11 by skattankakk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 
 void	ft_exit_error(char *msg, int ret)
 {

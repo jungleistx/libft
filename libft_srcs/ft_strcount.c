@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strcount.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rvuorenl <rvuorenl@student.42.fr>          +#+  +:+       +#+        */
+/*   By: skattankakku <skattankakku@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/17 13:58:04 by rvuorenl          #+#    #+#             */
-/*   Updated: 2022/10/24 23:36:10 by rvuorenl         ###   ########.fr       */
+/*   Updated: 2023/04/10 23:32:04 by skattankakk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 
 int	ft_strcount(char *str, char target)
 {
