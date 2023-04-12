@@ -6,7 +6,7 @@
 /*   By: skattankakku <skattankakku@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/01 12:56:07 by rvuorenl          #+#    #+#             */
-/*   Updated: 2023/04/04 22:30:06 by skattankakk      ###   ########.fr       */
+/*   Updated: 2023/04/12 15:00:56 by skattankakk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,6 +26,8 @@ typedef struct s_list
 	struct s_list	*next;
 }t_list;
 
+int		ft_printf(const char *str, ...);
+int		ft_strlen_fin(char *str);
 void	ft_bubblesort_str(char **list);
 void	ft_bubblesort_int(int *list, int size);
 void	ft_free_strarray(char ***array);
@@ -148,4 +150,5 @@ t_list	*ft_lstadd_end(t_list *head, t_list *new);
 45	ft_strstr.c haystack/needle NULL input
 46	ft_strnstr.c haystack/needle NULL input
 47	ft_create_strarray malloc
+48	ft_strlen_fin NULL input
 */
